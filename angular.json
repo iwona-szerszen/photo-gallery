@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "photo-gallery"
+    }
+  },
+  "defaultProject": "photo-gallery",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
