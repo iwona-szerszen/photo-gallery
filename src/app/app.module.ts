@@ -7,6 +7,7 @@ import { PhotoComponent } from './photo/photo.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ActivePhotoComponent } from './active-photo/active-photo.component';
 import { UploadPhotoComponent } from './upload-photo/upload-photo.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UploadPhotoComponent } from './upload-photo/upload-photo.component';
     PhotoComponent,
     GalleryComponent,
     ActivePhotoComponent,
-    UploadPhotoComponent
+    UploadPhotoComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
